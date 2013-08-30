@@ -1,0 +1,8 @@
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  background: #f3f3f3;
+}
+
+.site-header__site-logo img {
+  width: 200px;
+}
