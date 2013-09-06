@@ -2,32 +2,63 @@
 <html>
   <head>
     <title>My Portfolio</title>   
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />    
+    <link rel="stylesheet" type="text/css" href="assets/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/typography.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header class="site-header">
-      <figure class="site-header__site-logo">
-        <img src="assets/img/site-logo.svgz" alt="Site Logo" />
-      </figure>
-      <nav class="site-header__site-nav">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Hire Us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <header class="page-title">
+    <section class="wrapper cf">
+      <header class="site-header cf col-12">
+        <figure class="site-header__site-logo col-6 alpha">
+          <img src="assets/img/site-logo.svgz" alt="Site Logo" />
+        </figure>
+        <nav class="site-header__site-nav col-6 omega">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Hire Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <header class="page-title--home col-12">
+        <h1>We work in multiple mediums for a diverse range of clients</h1>
+      </header>
+      <section class="portfolio-grid">
+        <div class="portfolio-grid__project col-6">
+          <a href="work-1.html">
+            <img src="assets/img/work-1-thumbnail.jpg" alt="Roger" />
+          </a>
+          <h2>British Gas Heating Dash</h2>
+          <h3>Installation</h3>
+        </div>
+        <div class="portfolio-grid__project col-6">
+          <a href="work-2.html">
+            <img src="assets/img/work-2-thumbnail.jpg" alt="Roger" />
+          </a>
+          <h2>British Gas Heating Dash</h2>
+          <h3>Installation</h3>
+        </div>
+        <div class="portfolio-grid__project col-6">
+          <a href="work-3.html">
+            <img src="assets/img/work-3-thumbnail.jpg" alt="Roger" />
+          </a>
+          <h2>British Gas Heating Dash</h2>
+          <h3>Installation</h3>
+        </div>
+        <div class="portfolio-grid__project col-6">
+          <a href="work-4.html">
+            <img src="assets/img/work-4-thumbnail.jpg" alt="Roger" />
+          </a>
+          <h2>British Gas Heating Dash</h2>
+          <h3>Installation</h3>
+        </div>
+      </section>
+      <footer class="site-footer">
 
-    </header>
-    <section class="portfolio-grid">
-
-    </section>
-    <footer class="site-footer">
-
-    </footer>
+      </footer>
+  </section>
   </body>
 </html>

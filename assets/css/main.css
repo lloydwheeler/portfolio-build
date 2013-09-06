@@ -3,6 +3,52 @@ body {
   background: #f3f3f3;
 }
 
+.site-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .site-header__site-logo img {
   width: 200px;
 }
+
+.site-header__site-nav {
+  text-align: right;
+  margin-top: 12px;
+}
+
+.site-header__site-nav ul li  {
+  display: inline;
+  margin-right: 20px;
+}
+
+.site-header__site-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.page-title--home {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.page-title--home h1 {
+  font-size: 36px;
+  width: 560px;
+  margin: 0 auto;
+}
+
+.portfolio-grid__project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio-grid__project img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.portfolio-grid__project h2 + h3 {
+  margin-top: 10px;
+}
+

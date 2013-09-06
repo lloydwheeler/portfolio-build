@@ -1,0 +1,75 @@
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.col-1 {
+  width: 60px;
+}
+
+.col-2 {
+  width: 140px;
+}
+
+.col-3 {
+  width: 220px;
+}
+
+.col-4 {
+  width: 300px;
+}
+
+.col-5 {
+  width: 380px;
+}
+
+.col-6 {
+  width: 460px;
+}
+
+.col-12 {
+  width: 940px;
+}
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
